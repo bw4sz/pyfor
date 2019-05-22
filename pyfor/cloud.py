@@ -100,7 +100,7 @@ class Cloud:
                 points = {}
                 for dim in dims:
                     try:
-                        print(dim)
+                        #print(dim)
                         points[dim] = eval('las.{}'.format(dim))
                     except:
                         pass
